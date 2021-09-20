@@ -77,8 +77,8 @@ class FamilyBridgeProblem(SearchProblem):
         action_list = string_to_list(action)
         return max(int(x) for x in list(action_list))
 
-    def heuristic(self, state):        
-        return 1
+    def heuristic(self, state):    
+        return sum(string_to_list(state))
 
 problem = FamilyBridgeProblem(initial_state="1,3,6,8,12,1")
 result = astar(problem)
