@@ -18,3 +18,4 @@ Answer to the following problem:
 
 * Python 3.9
 * simpleai (https://simpleai.readthedocs.io/en/latest/)
+* A* Algorithm
