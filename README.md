@@ -19,3 +19,7 @@ Answer to the following problem:
 * Python 3.9
 * simpleai (https://simpleai.readthedocs.io/en/latest/)
 * A* Algorithm
+
+```
+local-machine# python3 family_bridge_problem.py
+```
