@@ -20,6 +20,7 @@ Answer to the following problem:
 * simpleai (https://simpleai.readthedocs.io/en/latest/)
 * A* Algorithm
 
+## Usage
 ```
 local-machine# python3 family_bridge_problem.py
 ```
