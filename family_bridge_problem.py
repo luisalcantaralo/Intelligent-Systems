@@ -4,8 +4,6 @@ Authors:
     - Luis Alfonso Alcántara López Ortega   A01374785  
     - Javier Pascal Flores                  A01375925
     - Irving Fuentes Aguilera               A01745759
-
-
 '''
 from simpleai.search import SearchProblem, astar
 
