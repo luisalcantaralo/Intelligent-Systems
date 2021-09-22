@@ -6,6 +6,8 @@ Authors:
     - Irving Fuentes Aguilera               A01745759
 '''
 from simpleai.search import SearchProblem, astar
+from simpleai.search import viewers
+from simpleai.search.viewers import WebViewer
 
 # Transforms list to a string
 def list_to_string(l):
@@ -81,6 +83,6 @@ class FamilyBridgeProblem(SearchProblem):
         return sum(string_to_list(state))
 
 problem = FamilyBridgeProblem(initial_state="1,3,6,8,12,1")
-result = astar(problem)
-
+my_viewer = WebViewer()
+result = astar(problem, viewer=my_viewer)
 print_result(result)
