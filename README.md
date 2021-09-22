@@ -22,5 +22,8 @@ Answer to the following problem:
 
 ## Usage
 ```
+pip install pydot flask
+```
+```
 local-machine# python3 family_bridge_problem.py
 ```
