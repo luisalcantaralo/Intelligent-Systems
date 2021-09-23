@@ -83,5 +83,10 @@ class FamilyBridgeProblem(SearchProblem):
         return sum(string_to_list(state))
 
 problem = FamilyBridgeProblem(initial_state="1,3,6,8,12,1")
+# Uncomment the following code to get the tree
+''' 
+ my_viewer = WebViewer()
+ result = astar(problem, viewer=my_viewer)
+'''
 result = astar(problem)
 print_result(result)
